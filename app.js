@@ -133,6 +133,10 @@ This function should be dynamic, accepting an array of any length.
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyAnyArray() function and see if the test passes.*/
 
 // Write your code here
+
+
+
+
 var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
@@ -142,12 +146,10 @@ var p=1;
        p=parseInt(multiply(p,dynamicArray[i]));
      }
 
-  return [p, ' The numbers have a product of ' , dynamicArray[0],dynamicArray[1] ,dynamicArray[2],dynamicArray[3], dynamicArray[4],'.'];
+  return [p, ' The numbers  ' , dynamicArray[0],dynamicArray[1] ,dynamicArray[2],dynamicArray[3],dynamicArray[4] ,' have a product of ' + p +'.'];
     }
 
           multiplyAnyArray(testDynamicArray);
-
-
 
 
 
